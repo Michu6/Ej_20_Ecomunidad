@@ -1,0 +1,273 @@
+/*----------- HEADER -----------*/
+
+header {
+	background-image: url('../img/semilla.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0 70%;
+}
+
+.head {
+	background-color: white;
+}
+
+.head .col-6 {
+	vertical-align: baseline;
+}
+
+.head img {
+	width: 100px;
+}
+
+nav ul {
+	padding: 34px 0;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #7C7C7C;
+	padding: 5px 10px;
+}
+
+/* ---------- NAV TRANSITIONS ----------*/
+
+.hvr-underline-from-center {
+  -webkit-transform: translateZ(1);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background-color: #148E00;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+/*----------- HEADER INTRO -----------*/
+
+.intro {
+	margin-top: 300px;
+	background-color: #f0f0f0;
+}
+
+/*--------- SECTION METHODOLOGY ---------*/
+
+.methodology .bg-img {
+	height: 330px;
+}
+
+.methodology h1, .methodology p {
+	color: white;
+	margin: 15px;
+}
+
+.methodology .metho-background {
+	background-color: red;
+	background-image: url('../img/metodo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.methodology .metho-description {
+	background-image: url('../img/fondo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.methodology .metho-description img {
+	width: 50px;
+}
+
+/*----------- SECTION SERVICES -------*/
+
+.services-themes .col-4{
+	padding: 5% 3%;
+}
+
+/*----------- SECTION PROYECTS ----------*/
+
+.proyects {
+	background-color: #5e7d38;
+}
+
+.proyects h1, .proyects h2, .proyects p {
+	color: white;
+}
+
+.proyects img {
+	width: 100%;
+}
+
+.proyects-text {
+	margin-top: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+/*---------- SECTION TEAM -------------*/
+.team {
+	color: black;
+	padding: 50px 0;
+}
+
+.team h1 {
+	text-align: left;
+	margin-left: 60px;
+	color: #446A0D;
+}
+
+.team h2 {
+	font-size: 20px;
+	margin: 30px 0 0;
+	color: black;
+}
+
+.team h3, .team p {
+	font-size: 13px;
+}
+
+.team .col-6 {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.team .col-6 img {
+	border-radius: 100%;
+	width: 200px;
+}
+
+.team .social-media {
+	margin-top: 30px;
+}
+
+.team .social-media img {
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 0;
+	width: 25px;
+}
+
+/*---------- SECTION BLOG -------------*/
+
+.blog {
+	background-image: url(../img/fondo2.jpg);
+	padding: 40px 80px;
+	text-align: left;
+}
+
+.blog .col-4 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.blog h1,  .blog h2, .blog p {
+	color: #595959;
+}
+
+.blog img {
+	width: 100%;
+}
+
+.blog .flecha-left img {
+	width: 35px;
+    position: relative;
+    top: 100px;
+	left: -800px;
+}
+
+.blog .flecha-right img {
+	width: 35px;
+    position: relative;
+    top: 100px;
+	right: -330px;
+}
+
+.blog .col-4:last-child {
+	background-color: yellow;
+	border: 5px solid red;
+}
+
+.blog .blog-last {
+	position: relative;
+	top: -41px;
+}
+/*---------- SECTION REDES -----------*/
+
+.redes {
+	background-color: #3D3D3D;
+	padding: 30px;
+}
+
+.redes .col-3 {
+	border: 1px solid #515151;
+	padding: 20px 0 0 20px;
+	text-align: left;
+}
+
+.redes a {
+	text-decoration: none;
+	color: white;
+}
+.redes .icon {
+	margin-top: 80px;
+}
+
+.redes .col-3 .mail img {
+	margin-bottom: 20px;
+}
+
+.redes img {
+	width: 40px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	float: right;
+}
+
+/*--------- FOOTER ------------ */
+
+footer {
+	padding: 20px 10px 70px 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #F09800;
+	font-size: 15px;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #007A06;
+	font-size: 15px;
+}
+
+footer .col-3 {
+	text-align: left;
+}
+
+footer .col-3:last-child {
+	text-align: right;
+}
+
+
